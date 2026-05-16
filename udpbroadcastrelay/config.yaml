@@ -1,0 +1,10 @@
+name: "UDP Broadcast Relay"
+description: "Relays UDP broadcasts between VLANs for IoT device discovery"
+version: "1.0.0"
+slug: "udpbroadcastrelay"
+init: false
+host_network: true
+arch:
+  - aarch64
+startup: system
+boot: auto
